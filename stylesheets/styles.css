@@ -219,11 +219,6 @@ nav ul li {
     background-image: url(../assets/images/product-4.jpg);
   }
   
-  footer {
-    /* display: flex; */
-    /* padding: 2.5rem 10rem; */
-  }
-  
   footer > div {
     flex: 1;
   }
@@ -292,7 +287,7 @@ nav ul li {
     }
   
     .links-column-2 ul li a {
-      border: none !important;
+      border: none;
     }
   
     .links-column-2 ul li{
@@ -328,8 +323,8 @@ nav ul li {
     }
   
     nav ul li:hover{
-      background-image: none !important;
-      background-color: #777 !important;
+      background-image: none;
+      background-color: #777;
     }
   
     nav ul li:first-child{

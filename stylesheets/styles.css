@@ -45,9 +45,7 @@ nav ul li {
     background-position-x: center;
     padding: .5rem 4.8rem;
     background-repeat: no-repeat;
-  
   }
-  
   
   nav ul li:last-child {
     border-top-right-radius: 3px;
@@ -254,9 +252,7 @@ nav ul li {
   
   .links-column-2 ul li:not(:last-child) a {
     border-right: 1px solid  rgb(204,204,204);
-  
   }
-  
   
   .links-column-1 div:first-child {
     padding-bottom: 1rem;
@@ -293,8 +289,6 @@ nav ul li {
     .links-column-2 ul li {
       padding: .3rem 0;
     }
-  
-  
   }
   
   .links-wrapper {
@@ -356,5 +350,4 @@ nav ul li {
     nav ul li:last-child span {
       display: none;
     }
-  
   }

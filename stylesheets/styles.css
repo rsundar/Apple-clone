@@ -8,7 +8,7 @@ html {
     font-size: 10px;
 }
 
-body{
+body {
     font-weight: normal;
     font-size: 1.6rem;
     line-height: 1.6;
@@ -16,7 +16,7 @@ body{
     font-family: Arial, sans-serif;
 }
 
-nav{
+nav {
     position: absolute;
     top: 8rem;
     left: 50%;
@@ -104,13 +104,13 @@ nav ul li {
     left: 11%;
    }
   
-  nav ul li:not(:last-child):hover{
+  nav ul li:not(:last-child):hover {
     background-image: linear-gradient(to top, rgb(122,122,122) 1% ,rgb(62,62,62)
     48%, rgb(77,77,77)52%);
     cursor: pointer;
   }
   
-  nav ul li:first-child:hover{
+  nav ul li:first-child:hover {
     background-image: url(../assets/images/nav.svg), linear-gradient(to top, rgb(122,122,122) 1% ,rgb(62,62,62)
     48%, rgb(77,77,77)52%);
   }
@@ -122,7 +122,7 @@ nav ul li {
     text-shadow: 1px 1px 1px #444, -1px -1px 1px #444
   }
 
-  nav ul li a:hover{
+  nav ul li a:hover {
     text-decoration: none;
   }
   
@@ -139,11 +139,11 @@ nav ul li {
     padding-top: 17rem;
   }
   
-  header:hover{
+  header:hover {
     cursor: pointer;
   }
   
-  header h1{
+  header h1 {
     background: url(../assets/images/h1.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -152,7 +152,7 @@ nav ul li {
     margin-bottom: 1rem;
   }
   
-  header h2{
+  header h2 {
     background: url(../assets/images/h2.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -160,14 +160,14 @@ nav ul li {
     margin-bottom: 1.2rem;
   }
   
-  header h3{
+  header h3 {
     background: url(../assets/images/cta-simple.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 7rem;
   }
   
-  header h3:hover{
+  header h3:hover {
     background: url(../assets/images/cta-hover.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -189,7 +189,7 @@ nav ul li {
     cursor: pointer;
   }
   
-  .product{
+  .product {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -198,11 +198,11 @@ nav ul li {
     display: block;
   }
   
-  .product-gallery div:not(:last-child){
+  .product-gallery div:not(:last-child) {
     border-right: 2px solid white;
   }
   
-  .a-1{
+  .a-1 {
     background-image: url(../assets/images/product-1.jpg);
   }
   
@@ -224,11 +224,11 @@ nav ul li {
   }
   
   
-  .links-column-1{
+  .links-column-1 {
     max-width: 60.5rem;
   }
   
-  .links-column-2{
+  .links-column-2 {
     margin-left: 3rem;
   }
   
@@ -238,7 +238,7 @@ nav ul li {
     font-size: 1.1rem;
   }
   
-  footer ul{
+  footer ul {
     list-style: none;
     display: flex;
   }
@@ -252,13 +252,13 @@ nav ul li {
     padding: 0 .6rem;
   }
   
-  .links-column-2 ul li:not(:last-child) a{
+  .links-column-2 ul li:not(:last-child) a {
     border-right: 1px solid  rgb(204,204,204);
   
   }
   
   
-  .links-column-1 div:first-child{
+  .links-column-1 div:first-child {
     padding-bottom: 1rem;
   }
   
@@ -266,7 +266,7 @@ nav ul li {
     padding-left: 10rem;
   } 
   
-  a:hover{
+  a:hover {
     text-decoration: underline;
   }
   
@@ -277,7 +277,7 @@ nav ul li {
       text-align: center;
     }
   
-    .links-column-1{
+    .links-column-1 {
       padding-left: 0;
       max-width: 100%;
     }
@@ -290,7 +290,7 @@ nav ul li {
       border: none;
     }
   
-    .links-column-2 ul li{
+    .links-column-2 ul li {
       padding: .3rem 0;
     }
   
@@ -303,7 +303,7 @@ nav ul li {
   }
   
   
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 800px) {
     nav {
       position: static;
       width: 100%;
@@ -314,7 +314,7 @@ nav ul li {
       flex-direction: column;
     }
   
-    nav ul li{
+    nav ul li {
       background-image: none;
       background-color: #908e8e;
       border: none;
@@ -322,12 +322,12 @@ nav ul li {
       padding: 1rem 0;
     }
   
-    nav ul li:hover{
+    nav ul li:hover {
       background-image: none;
       background-color: #777;
     }
   
-    nav ul li:first-child{
+    nav ul li:first-child {
       display: none;
     }
     
@@ -349,7 +349,7 @@ nav ul li {
       background-position: center;
     }
   
-    h1, h2, h3{
+    h1, h2, h3 {
       display: none;
     }
   

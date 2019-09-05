@@ -115,6 +115,13 @@ nav ul li {
     48%, rgb(77,77,77)52%);
   }
   
+  nav ul a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px #444, -1px -1px 1px #444
+  }
+
   nav ul li a:hover{
     text-decoration: none;
   }
@@ -122,14 +129,7 @@ nav ul li {
   nav ul li:last-child a img{ 
     width: 50px;
   }
-  
-  nav ul a {
-    color: #eee;
-    text-decoration: none;
-    font-size: 1.2rem;
-    text-shadow: 1px 1px 1px #444, -1px -1px 1px #444
-  }
-  
+   
   header {
     height: 53.8rem;
     background: url(../assets/images/hero-img.jpg);
@@ -180,12 +180,13 @@ nav ul li {
     height: 20.6rem;
     border-top: 2px solid white;
   }
-  aside div:hover {
-    cursor: pointer;
-  }
-  
+
   aside > div {
     flex: 1;
+  }
+  
+  aside div:hover {
+    cursor: pointer;
   }
   
   .product{

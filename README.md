@@ -6,7 +6,7 @@ Clone of the Apple landing page from year 2014.
 + HTML5
 + CSS3
 
-# Authors
+## Authors
 + Rohan Sundar [@rsundar](https://www.github.com/rsundar)
 
 ## Live Demo  
